@@ -1,6 +1,5 @@
 "use client";
 import { logoutUser } from "@/lib/auth";
-import Indicator from "@/components/Indicator";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 
@@ -69,7 +68,6 @@ function ProfileTab() {
           <li>
             <Link href="/profile" className="justify-between">
               Profile
-              <span className="badge">New</span>
             </Link>
           </li>
           <li>

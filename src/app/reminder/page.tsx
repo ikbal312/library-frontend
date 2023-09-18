@@ -8,7 +8,7 @@ export default async function ReminderPage() {
   if (!res.ok) return <div>No Reminder</div>;
   const reminders = res.data;
   const table = (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto ">
       <div className="min-w-screen min-h-screen bg-gray-100 flex items-center justify-center bg-gray-100 font-sans overflow-hidden">
         <div className="w-full lg:w-5/6">
           <div className="bg-white shadow-md rounded my-6">

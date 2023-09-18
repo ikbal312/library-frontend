@@ -67,3 +67,9 @@ type Reminder = {
   "last_date": LastDate,
   "fine": Fine
 }
+
+type Profile ={
+  first_name:string,
+  last_name:string,
+  email?:string
+}
